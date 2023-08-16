@@ -83,7 +83,7 @@ const heart = document.querySelector('.heart')
       const status = document.querySelector(".status");
       const status1 = document.querySelector('.status1')  
       let online = () => {  
-        status.innerText = "Connection Available";  
+        status.innerText = "internet access";  
       };
     
       let offline = () => {
